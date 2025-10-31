@@ -1,4 +1,4 @@
-# Batı Yıldırım - Resmi Web Sitesi
+# Batı Yıldırım için Modern Web Sitesi
 
 Türkiye'nin en genç Porsche Carrera Cup pilotu Batı Yıldırım'ın resmi web sitesi.
 
