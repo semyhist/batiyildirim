@@ -1,0 +1,154 @@
+.about {
+  background: white;
+}
+
+.about-text h3 {
+  color: #0a0a0a;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.about-text p {
+  margin-bottom: 30px;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: #4a4a4a;
+  font-weight: 300;
+}
+
+.about-text strong {
+  color: #0a0a0a;
+  font-weight: 500;
+}
+
+.about-text blockquote {
+  background: #0a0a0a;
+  color: white;
+  padding: 40px;
+  border-left: 3px solid #ff6b35;
+  margin: 50px 0;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: #e0e0e0;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-left: 40px;
+  background: transparent;
+  padding: 30px 30px 30px 40px;
+  border: none;
+  box-shadow: none;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 35px;
+  width: 9px;
+  height: 9px;
+  background: #0a0a0a;
+  border-radius: 50%;
+}
+
+.timeline-item:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.timeline-year {
+  font-weight: 500;
+  color: #0a0a0a;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.timeline-content h4 {
+  color: #0a0a0a;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.timeline-content p {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: 300;
+}
+
+@media (max-width: 1024px) {
+  .about-text h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-text h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .about-text p {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+  
+  .about-text blockquote {
+    padding: 25px 20px;
+    font-size: 1rem;
+    margin: 40px 0;
+  }
+  
+  .timeline-item {
+    padding: 20px 20px 20px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .timeline-year {
+    font-size: 1.1rem;
+  }
+  
+  .timeline-content h4 {
+    font-size: 0.95rem;
+  }
+  
+  .timeline-content p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-text h3 {
+    font-size: 1.3rem;
+  }
+  
+  .about-text blockquote {
+    padding: 20px 15px;
+    font-size: 0.95rem;
+  }
+  
+  .timeline-item {
+    padding: 15px 15px 15px 25px;
+  }
+}

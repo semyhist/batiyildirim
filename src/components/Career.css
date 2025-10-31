@@ -1,0 +1,180 @@
+.career {
+  background: #fafafa;
+}
+
+.career-card {
+  text-align: left;
+  background: white;
+  border: 1px solid #e0e0e0;
+}
+
+.career-icon {
+  width: 50px;
+  height: 50px;
+  background: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.career-card h3 {
+  color: #0a0a0a;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.career-period {
+  color: #666;
+  font-weight: 400;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.career-card p {
+  margin: 20px 0;
+  color: #4a4a4a;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 0.95rem;
+}
+
+.achievement-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievement-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #4a4a4a;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.achievement-list li:last-child {
+  border-bottom: none;
+}
+
+.quotes-section {
+  margin-top: 100px;
+  padding-top: 100px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.quotes-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #0a0a0a;
+  margin-bottom: 60px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.quote-card {
+  background: #0a0a0a;
+  color: white;
+  padding: 40px;
+  text-align: left;
+  border: none;
+}
+
+.quote-card blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.quote-card cite {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.85rem;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .quotes-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .career-card h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .career-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  
+  .career-card h3 {
+    font-size: 1.1rem;
+  }
+  
+  .career-card p {
+    font-size: 0.9rem;
+  }
+  
+  .achievement-list li {
+    font-size: 0.85rem;
+    padding: 10px 0;
+  }
+  
+  .quotes-section {
+    margin-top: 60px;
+    padding-top: 60px;
+  }
+  
+  .quotes-title {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+  
+  .quote-card {
+    padding: 25px 20px;
+  }
+  
+  .quote-card blockquote {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .career-card {
+    padding: 25px 20px;
+  }
+  
+  .quotes-title {
+    font-size: 1.5rem;
+  }
+  
+  .quote-card {
+    padding: 20px 15px;
+  }
+  
+  .quote-card blockquote {
+    font-size: 0.95rem;
+  }
+}

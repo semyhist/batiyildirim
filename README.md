@@ -1,70 +1,125 @@
-# Getting Started with Create React App
+# Batı Yıldırım - Resmi Web Sitesi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Türkiye'nin en genç Porsche Carrera Cup pilotu Batı Yıldırım'ın resmi web sitesi.
 
-## Available Scripts
+## 🏎️ Proje Hakkında
 
-In the project directory, you can run:
+Bu proje, profesyonel yarış pilotu Batı Yıldırım'ın kariyer yolculuğunu, başarılarını ve hedeflerini sergileyen modern bir web sitesidir. React ile geliştirilmiş, tamamen responsive ve çift dilli (Türkçe/İngilizce) bir platformdur.
 
-### `npm start`
+## ✨ Özellikler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🌐 **Çift Dil Desteği**: Türkçe ve İngilizce
+- 📱 **Tam Responsive**: Mobil, tablet ve masaüstü uyumlu
+- ⚡ **Modern Tasarım**: Minimalist ve profesyonel arayüz
+- 🎨 **Animasyonlar**: Framer Motion ile akıcı geçişler
+- 📸 **Galeri**: Yarış fotoğrafları ve anılar
+- 📰 **Haberler**: Güncel yarış haberleri ve başarılar
+- 📞 **İletişim**: Sponsorluk ve medya işbirlikleri için form
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Teknolojiler
 
-### `npm test`
+- React 18
+- React Router DOM
+- Framer Motion
+- AOS (Animate On Scroll)
+- React Icons
+- CSS3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Kurulum
 
-### `npm run build`
+```bash
+# Projeyi klonlayın
+git clone https://github.com/kullaniciadi/bati-yildirim-website.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Proje dizinine gidin
+cd bati-yildirim-website
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Bağımlılıkları yükleyin
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Geliştirme sunucusunu başlatın
+npm start
+```
 
-### `npm run eject`
+Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🏗️ Build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Production build oluşturun
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Build dosyaları `build/` klasöründe oluşturulacaktır.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📂 Proje Yapısı
 
-## Learn More
+```
+bati-yildirim-website/
+├── public/              # Statik dosyalar ve resimler
+├── src/
+│   ├── components/      # React bileşenleri
+│   ├── context/         # Dil yönetimi context
+│   ├── translations.js  # Çeviri dosyası
+│   ├── App.js          # Ana uygulama
+│   └── index.js        # Giriş noktası
+├── package.json
+└── README.md
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Özellikler Detayı
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Ana Sayfa
+- Etkileyici hero bölümü
+- Kariyer istatistikleri
+- Yarış videosu linki
 
-### Code Splitting
+### Hakkımda
+- Detaylı biyografi
+- Kariyer zaman çizelgesi
+- Kişisel alıntılar
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Kariyer
+- Karting dönemi
+- Porsche Carrera Cup
+- Antrenman programı
 
-### Analyzing the Bundle Size
+### Başarılar
+- Şampiyonluklar
+- Kariyer istatistikleri
+- Gelecek hedefleri
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Galeri
+- Yarış fotoğrafları
+- Kategori filtreleme
+- Modal görüntüleme
 
-### Making a Progressive Web App
+### Haberler
+- Güncel haberler
+- Medya içerikleri
+- Kategori etiketleri
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### İletişim
+- İletişim formu
+- Sosyal medya linkleri
+- İletişim bilgileri
 
-### Advanced Configuration
+## 🌐 Canlı Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+[https://batiyildirim.com](https://batiyildirim.com)
 
-### Deployment
+## 📧 İletişim
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **E-posta**: info@batiyildirim.com
+- **Telefon**: +90 533 967 28 49
+- **Instagram**: [@batiyildirim](https://instagram.com/batiyildirim)
+- **YouTube**: [@batiyildirim](https://youtube.com/@batiyildirim)
+- **LinkedIn**: [Batı Yıldırım](https://linkedin.com/in/bati-yildirim-a1683b346)
 
-### `npm run build` fails to minify
+## 👨‍💻 Geliştirici
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Semyhist tarafından geliştirildi.
+
+## 📄 Lisans
+
+© 2025 Batı Yıldırım. Tüm hakları saklıdır.

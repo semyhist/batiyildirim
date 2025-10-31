@@ -1,0 +1,267 @@
+.footer {
+  background: #0a0a0a;
+  color: white;
+  padding: 80px 0 0;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 60px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-brand h3 {
+  color: white;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  letter-spacing: -1px;
+}
+
+.footer-brand p {
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.footer-quote {
+  font-style: italic;
+  margin-top: 30px;
+  line-height: 1.8;
+  color: rgba(255,255,255,0.7);
+}
+
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: white;
+  color: #0a0a0a;
+  border-color: white;
+}
+
+.footer-links h4 {
+  color: white;
+  font-size: 0.85rem;
+  margin-bottom: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+  font-weight: 300;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-contact h4 {
+  color: white;
+  font-size: 0.85rem;
+  margin-bottom: 25px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-contact p {
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.footer-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.footer-stats .stat {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.stat-number {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 5px;
+  letter-spacing: -1px;
+}
+
+.stat-label {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.footer-bottom {
+  padding: 30px 0;
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom-content p {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.85rem;
+  margin: 0;
+  font-weight: 300;
+}
+
+.footer-love {
+  color: rgba(255,255,255,0.5);
+}
+
+@media (max-width: 1200px) {
+  .footer-content {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .footer-brand {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 0 0;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding-bottom: 40px;
+  }
+  
+  .footer-brand {
+    grid-column: span 1;
+  }
+  
+  .footer-brand h3 {
+    font-size: 1.3rem;
+  }
+  
+  .footer-brand p,
+  .footer-links a,
+  .footer-contact p {
+    font-size: 0.85rem;
+  }
+  
+  .footer-quote {
+    font-size: 0.9rem;
+    margin-top: 20px;
+  }
+  
+  .footer-social {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  
+  .footer-links h4,
+  .footer-contact h4 {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-stats {
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .footer-stats .stat {
+    padding: 15px;
+  }
+  
+  .stat-number {
+    font-size: 1.3rem;
+  }
+  
+  .footer-bottom {
+    padding: 25px 0;
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .footer-bottom-content p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 0 0;
+  }
+  
+  .footer-content {
+    gap: 30px;
+  }
+  
+  .footer-brand h3 {
+    font-size: 1.2rem;
+  }
+  
+  .footer-stats {
+    grid-template-columns: 1fr;
+  }
+}
