@@ -104,22 +104,7 @@ bati-yildirim-website/
 - Sosyal medya linkleri
 - İletişim bilgileri
 
-## 🌐 Canlı Demo
-
-[https://batiyildirim.com](https://batiyildirim.com)
-
-## 📧 İletişim
-
-- **E-posta**: info@batiyildirim.com
-- **Telefon**: +90 533 967 28 49
-- **Instagram**: [@batiyildirim](https://instagram.com/batiyildirim)
-- **YouTube**: [@batiyildirim](https://youtube.com/@batiyildirim)
-- **LinkedIn**: [Batı Yıldırım](https://linkedin.com/in/bati-yildirim-a1683b346)
 
 ## 👨‍💻 Geliştirici
 
 Semyhist tarafından geliştirildi.
-
-## 📄 Lisans
-
-© 2025 Batı Yıldırım. Tüm hakları saklıdır.
