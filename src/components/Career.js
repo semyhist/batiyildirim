@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaTrophy, FaFlag, FaCog } from 'react-icons/fa';
 import './Career.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 
 const Career = () => {
-  const { dil } = dilKullan();
+  const { dil } = useDil();
   
   const kariyerAsamalari = [
     {

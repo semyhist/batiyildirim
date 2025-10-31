@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaTrophy, FaStar, FaBullseye, FaFlag } from 'react-icons/fa';
 import './Achievements.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 
 const Achievements = () => {
-  const { dil } = dilKullan();
+  const { dil } = useDil();
   
   const basarilar = [
     {

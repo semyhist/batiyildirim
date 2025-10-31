@@ -1,11 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './About.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 import { ceviriler } from '../translations';
 
 const About = () => {
-  const { dil } = dilKullan();
+  const { dil } = useDil();
   const metin = ceviriler[dil];
   
   const zamanCizelgesi = [

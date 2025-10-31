@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaPlay, FaArrowDown } from 'react-icons/fa';
 import './Hero.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 import { ceviriler } from '../translations';
 
 const Hero = () => {
-  const { dil } = dilKullan();
+  const { dil } = useDil();
   const metin = ceviriler[dil];
   
   const istatistikler = [

@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
 import './Footer.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 import { ceviriler } from '../translations';
 
 const Footer = () => {
   const suankiYil = new Date().getFullYear();
-  const { dil } = dilKullan();
+  const { dil } = useDil();
   const metin = ceviriler[dil];
 
   const menuLinkleri = dil === 'tr' ? {

@@ -2,10 +2,10 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaCalendar, FaArrowRight } from 'react-icons/fa';
 import './News.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 
 const News = () => {
-  const { dil } = dilKullan();
+  const { dil } = useDil();
   
   const haberler = [
     {

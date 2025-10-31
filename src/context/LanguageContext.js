@@ -2,7 +2,7 @@ import React, { createContext, useState, useContext } from 'react';
 
 const DilKonteksti = createContext();
 
-export const dilKullan = () => useContext(DilKonteksti);
+export const useDil = () => useContext(DilKonteksti);
 
 export const DilSaglayici = ({ children }) => {
   const [dil, setDil] = useState('tr');

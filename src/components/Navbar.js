@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FaBars, FaTimes, FaGlobe } from 'react-icons/fa';
 import './Navbar.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 import { ceviriler } from '../translations';
 
 const Navbar = () => {
   const [menuAcik, setMenuAcik] = useState(false);
   const [kaydirma, setKaydirma] = useState(false);
-  const { dil, dilDegistir } = dilKullan();
+  const { dil, dilDegistir } = useDil();
   const metin = ceviriler[dil];
 
   useEffect(() => {

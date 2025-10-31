@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaTimes, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import './Gallery.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 
 const Gallery = () => {
-  const { dil } = dilKullan();
+  const { dil } = useDil();
   const [seciliResim, setSeciliResim] = useState(null);
   const [aktifIndeks, setAktifIndeks] = useState(0);
   const [aktifKategori, setAktifKategori] = useState('all');

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaPhone, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
 import './Contact.css';
-import { dilKullan } from '../context/LanguageContext';
+import { useDil } from '../context/LanguageContext';
 
 const Contact = () => {
-  const { dil } = dilKullan();
+  const { dil } = useDil();
   const [formVerisi, setFormVerisi] = useState({
     isim: '',
     eposta: '',
